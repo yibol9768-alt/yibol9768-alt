@@ -14,8 +14,8 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 
 | Project | Contribution |
 | :--- | :--- |
-| **SGLang** | [**#44861 — Deterministic ModelOpt FP8 on SM12x**](https://github.com/sgl-project/sglang/pull/44861). Keep outputs batch-invariant across cold prefill and prefix-cache hits, with regression coverage for CUDA Graph replay and edge cases. **Merged Nov 15, 2026.** |
-| **vLLM** | [**#67469 — Bound warmup and CUDA Graph sizes**](https://github.com/vllm-project/vllm/pull/67469). Cap token counts to `max_num_seqs × max_model_len`, keeping dummy warmup batches within the real batch limit. **Merged Nov 15, 2026.** |
+| **SGLang** | [**#44861 — Deterministic ModelOpt FP8 on SM12x**](https://github.com/sgl-project/sglang/pull/44861). Keep outputs batch-invariant across cold prefill and prefix-cache hits, with regression coverage for CUDA Graph replay and edge cases. **Merged.** |
+| **vLLM** | [**#67469 — Bound warmup and CUDA Graph sizes**](https://github.com/vllm-project/vllm/pull/67469). Cap token counts to `max_num_seqs × max_model_len`, keeping dummy warmup batches within the real batch limit. **Merged.** |
 
 [All merged public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Amerged+is%3Apublic) · [Open public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Aopen+is%3Apublic)
 
@@ -26,6 +26,9 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 | **[Deep Research Arena](https://github.com/yibol9768-alt/deep-research-arena)** | A team project for evaluating deep-research agents in controlled web sandboxes. Citation reachability and quote matching complement pairwise quality judgments and Bradley–Terry / Elo ranking. **[Live arena →](https://deepresearcharena.com)** |
 | **[ScholarMind](https://github.com/yibol9768-alt/ScholarMind)** | A research-workflow application with nine modules, live progress updates, traceable execution, pause/resume controls, and human review. Built with **FastAPI, SQLAlchemy, WebSocket, React, and TypeScript**. |
 | **[LLM Arcade](https://github.com/yibol9768-alt/llm-arcade)** | Playable artifacts for evaluating models and coding harnesses. Visitors can try the results, submit full rankings, and vote in anonymous A/B comparisons. **[Try the arcade →](https://llm-arcade.pages.dev/)** |
+| **[ReadTimeMemory](https://github.com/yibol9768-alt/ReadTimeMemory)** | Core implementations for stateful agent memory, evidence retrieval and reranking, with recorded development results. Previously named `stateful-memory`; one project, one repository. |
+
+More research code: [HybridAttn](https://github.com/yibol9768-alt/HybridAttn) · [CEDAR](https://github.com/yibol9768-alt/CEDAR).
 
 ## Engineering focus
 
