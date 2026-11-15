@@ -4,7 +4,7 @@
 
 I build tools to make AI agents **useful, inspectable, and measurable** — from retrieval and research workflows to reproducible benchmarks and interactive evaluation.
 
-B.Sc. student in Information and Computing Science at **Beijing University of Posts and Telecommunications (BUPT)**, graduating in 2027. Open to remote AI / agent engineering and research internships.
+B.Sc. student in Information and Computing Science at **Beijing University of Posts and Telecommunications (BUPT)**, graduating in 2027. **Admitted to the master’s program at BUPT’s School of Computer Science, starting in 2027.** Open to remote AI / agent engineering and research internships.
 
 [LinkedIn](https://www.linkedin.com/in/yibo-liu-aa327a44b/) · [Deep Research Arena](https://deepresearcharena.com) · [Play LLM Arcade](https://llm-arcade.pages.dev/)
 
