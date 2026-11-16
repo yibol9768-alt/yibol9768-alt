@@ -82,7 +82,7 @@ def render(prs):
         lines.append(f"| **{cell(repo)}** | [#{pr['number']} — {title}]({pr['url']}) | {pr['mergedAt'][:10]} |")
     if not prs:
         lines.append("| — | No merged upstream PRs yet. | — |")
-    lines.extend(["", "<sub>Updated automatically every 6 hours. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>"])
+    lines.extend(["", "<sub>Checked automatically every 30 minutes. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>"])
     return "\n".join(lines)
 
 
