@@ -12,10 +12,17 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 
 ## Merged open-source contributions
 
-| Project | Contribution |
-| :--- | :--- |
-| **SGLang** | [**#44861 — Deterministic ModelOpt FP8 on SM12x**](https://github.com/sgl-project/sglang/pull/44861). Keep outputs batch-invariant across cold prefill and prefix-cache hits, with regression coverage for CUDA Graph replay and edge cases. **Merged.** |
-| **vLLM** | [**#67469 — Bound warmup and CUDA Graph sizes**](https://github.com/vllm-project/vllm/pull/67469). Cap token counts to `max_num_seqs × max_model_len`, keeping dummy warmup batches within the real batch limit. **Merged.** |
+<!-- MERGED-PRS:START -->
+**3 merged PRs across 2 upstream projects.**
+
+| Project | Contribution | Merged (UTC) |
+| :--- | :--- | :--- |
+| **vllm-project/vllm** | [#67813 — \[Bugfix\]\[Multimodal\] Llama 4: honor per-request max\_patches](https://github.com/vllm-project/vllm/pull/67813) | 2026-11-16 |
+| **vllm-project/vllm** | [#67469 — \[Bugfix\] Cap warmup and CUDA graph sizes to max\_num\_seqs \* max\_model\_len](https://github.com/vllm-project/vllm/pull/67469) | 2026-11-15 |
+| **sgl-project/sglang** | [#44861 — \[Fix\] \[NVIDIA\] modelopt: Keep SM12x FP8 batch-invariant in deterministic mode](https://github.com/sgl-project/sglang/pull/44861) | 2026-11-15 |
+
+<sub>Updated automatically every 6 hours. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>
+<!-- MERGED-PRS:END -->
 
 [All merged public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Amerged+is%3Apublic) · [Open public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Aopen+is%3Apublic)
 
