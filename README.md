@@ -13,15 +13,16 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**3 merged PRs across 2 upstream projects.**
+**4 merged PRs across 3 upstream projects.**
 
 | Project | Contribution | Merged (UTC) |
 | :--- | :--- | :--- |
+| **deepset-ai/haystack-core-integrations** | [#4268 — fix: MCP - serialize \`outputs\_to\_string\` / \`outputs\_to\_state\` handlers in \`MCPTool\`](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) | 2026-11-16 |
 | **vllm-project/vllm** | [#67813 — \[Bugfix\]\[Multimodal\] Llama 4: honor per-request max\_patches](https://github.com/vllm-project/vllm/pull/67813) | 2026-11-16 |
 | **vllm-project/vllm** | [#67469 — \[Bugfix\] Cap warmup and CUDA graph sizes to max\_num\_seqs \* max\_model\_len](https://github.com/vllm-project/vllm/pull/67469) | 2026-11-15 |
 | **sgl-project/sglang** | [#44861 — \[Fix\] \[NVIDIA\] modelopt: Keep SM12x FP8 batch-invariant in deterministic mode](https://github.com/sgl-project/sglang/pull/44861) | 2026-11-15 |
 
-<sub>Updated automatically every 6 hours. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>
+<sub>Checked automatically every 30 minutes. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>
 <!-- MERGED-PRS:END -->
 
 [All merged public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Amerged+is%3Apublic) · [Open public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Aopen+is%3Apublic)
