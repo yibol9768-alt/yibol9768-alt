@@ -13,10 +13,11 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**4 merged PRs across 3 upstream projects.**
+**5 merged PRs across 4 upstream projects.**
 
 | Project | Contribution | Merged (UTC) |
 | :--- | :--- | :--- |
+| **huggingface/transformers** | [#50763 — Fix Llama4 text models with \`attention\_chunk\_size=None\` \(Llama Guard 4\)](https://github.com/huggingface/transformers/pull/50763) | 2026-11-16 |
 | **deepset-ai/haystack-core-integrations** | [#4268 — fix: MCP - serialize \`outputs\_to\_string\` / \`outputs\_to\_state\` handlers in \`MCPTool\`](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) | 2026-11-16 |
 | **vllm-project/vllm** | [#67813 — \[Bugfix\]\[Multimodal\] Llama 4: honor per-request max\_patches](https://github.com/vllm-project/vllm/pull/67813) | 2026-11-16 |
 | **vllm-project/vllm** | [#67469 — \[Bugfix\] Cap warmup and CUDA graph sizes to max\_num\_seqs \* max\_model\_len](https://github.com/vllm-project/vllm/pull/67469) | 2026-11-15 |
