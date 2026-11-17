@@ -13,18 +13,16 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**6 merged PRs across 4 upstream projects.**
+**6 merged PRs · 4 upstream repositories**
 
-| Project | Contribution | Merged (UTC) |
-| :--- | :--- | :--- |
-| **huggingface/transformers** | [#50758 — Fix assistant tokens mask with left truncation](https://github.com/huggingface/transformers/pull/50758) | 2026-11-17 |
-| **huggingface/transformers** | [#50763 — Fix Llama4 text models with \`attention\_chunk\_size=None\` \(Llama Guard 4\)](https://github.com/huggingface/transformers/pull/50763) | 2026-11-16 |
-| **deepset-ai/haystack-core-integrations** | [#4268 — fix: MCP - serialize \`outputs\_to\_string\` / \`outputs\_to\_state\` handlers in \`MCPTool\`](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) | 2026-11-16 |
-| **vllm-project/vllm** | [#67813 — \[Bugfix\]\[Multimodal\] Llama 4: honor per-request max\_patches](https://github.com/vllm-project/vllm/pull/67813) | 2026-11-16 |
-| **vllm-project/vllm** | [#67469 — \[Bugfix\] Cap warmup and CUDA graph sizes to max\_num\_seqs \* max\_model\_len](https://github.com/vllm-project/vllm/pull/67469) | 2026-11-15 |
-| **sgl-project/sglang** | [#44861 — \[Fix\] \[NVIDIA\] modelopt: Keep SM12x FP8 batch-invariant in deterministic mode](https://github.com/sgl-project/sglang/pull/44861) | 2026-11-15 |
+| Repository | Merged PRs | Recent PRs |
+| :--- | :---: | :--- |
+| **[huggingface/transformers](https://github.com/huggingface/transformers)** | [2](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Ahuggingface%2Ftransformers) | [#50758](https://github.com/huggingface/transformers/pull/50758) · [#50763](https://github.com/huggingface/transformers/pull/50763) |
+| **[deepset-ai/haystack-core-integrations](https://github.com/deepset-ai/haystack-core-integrations)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Adeepset-ai%2Fhaystack-core-integrations) | [#4268](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) |
+| **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | [2](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm) | [#67813](https://github.com/vllm-project/vllm/pull/67813) · [#67469](https://github.com/vllm-project/vllm/pull/67469) |
+| **[sgl-project/sglang](https://github.com/sgl-project/sglang)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Asgl-project%2Fsglang) | [#44861](https://github.com/sgl-project/sglang/pull/44861) |
 
-<sub>Checked automatically every 30 minutes. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>
+<sub>Updated every 30 minutes.</sub>
 <!-- MERGED-PRS:END -->
 
 [All merged public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Amerged+is%3Apublic) · [Open public PRs](https://github.com/pulls?q=is%3Apr+author%3Ayibol9768-alt+is%3Aopen+is%3Apublic)

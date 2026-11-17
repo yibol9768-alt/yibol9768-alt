@@ -4,6 +4,7 @@ import html
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,7 +27,7 @@ query($query: String!, $cursor: String) {
     pageInfo { hasNextPage endCursor }
     nodes {
       ... on PullRequest {
-        number title url mergedAt
+        number url mergedAt
         repository { nameWithOwner isFork owner { login } }
       }
     }
@@ -66,23 +67,32 @@ def fetch_prs(token):
 
 
 def cell(value):
-    # Remote PR titles are display data, never workflow commands or raw HTML.
+    # Remote repository names are display data, never raw Markdown or HTML.
     value = html.escape(" ".join(value.split()), quote=False)
     return "".join("\\" + char if char in "\\`*_{}[]()|" else char for char in value)
 
 
 def render(prs):
-    count = len({pr["repository"]["nameWithOwner"] for pr in prs})
-    lines = [f"**{len(prs)} merged PRs across {count} upstream projects.**",
-             "", "| Project | Contribution | Merged (UTC) |",
-             "| :--- | :--- | :--- |"]
-    for pr in prs[:10]:
+    repositories = {}
+    for pr in sorted(prs, key=lambda pr: (pr["mergedAt"], pr["url"]), reverse=True):
         repo = pr["repository"]["nameWithOwner"]
-        title = cell(pr["title"])
-        lines.append(f"| **{cell(repo)}** | [#{pr['number']} — {title}]({pr['url']}) | {pr['mergedAt'][:10]} |")
+        repositories.setdefault(repo, []).append(pr)
+
+    lines = [f"**{len(prs)} merged PRs · {len(repositories)} upstream repositories**",
+             "", "| Repository | Merged PRs | Recent PRs |",
+             "| :--- | :---: | :--- |"]
+    for repo, contributions in list(repositories.items())[:10]:
+        search_url = "https://github.com/pulls?" + urlencode({
+            "q": f"is:pr is:merged author:{USERNAME} repo:{repo}",
+        })
+        links = " · ".join(f"[#{pr['number']}]({pr['url']})" for pr in contributions[:3])
+        lines.append(f"| **[{cell(repo)}](https://github.com/{repo})** | [{len(contributions)}]({search_url}) | {links} |")
     if not prs:
-        lines.append("| — | No merged upstream PRs yet. | — |")
-    lines.extend(["", "<sub>Checked automatically every 30 minutes. Latest 10 merged PRs shown; personal repositories, forks, and team coursework excluded.</sub>"])
+        lines.append("| — | 0 | No merged upstream PRs yet. |")
+    note = "Updated every 30 minutes."
+    if len(repositories) > 10:
+        note += " Showing the 10 most recently contributed repositories."
+    lines.extend(["", f"<sub>{note}</sub>"])
     return "\n".join(lines)
 
 
