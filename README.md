@@ -13,10 +13,11 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**7 merged PRs · 4 upstream repositories**
+**8 merged PRs · 5 upstream repositories**
 
 | Repository | Merged PRs | Recent PRs |
 | :--- | :---: | :--- |
+| **[ag2ai/ag2](https://github.com/ag2ai/ag2)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Aag2ai%2Fag2) | [#3684](https://github.com/ag2ai/ag2/pull/3684) |
 | **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | [3](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm) | [#67904](https://github.com/vllm-project/vllm/pull/67904) · [#67813](https://github.com/vllm-project/vllm/pull/67813) · [#67469](https://github.com/vllm-project/vllm/pull/67469) |
 | **[huggingface/transformers](https://github.com/huggingface/transformers)** | [2](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Ahuggingface%2Ftransformers) | [#50758](https://github.com/huggingface/transformers/pull/50758) · [#50763](https://github.com/huggingface/transformers/pull/50763) |
 | **[deepset-ai/haystack-core-integrations](https://github.com/deepset-ai/haystack-core-integrations)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Adeepset-ai%2Fhaystack-core-integrations) | [#4268](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) |
