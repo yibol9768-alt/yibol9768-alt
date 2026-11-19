@@ -13,10 +13,11 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**9 merged PRs · 5 upstream repositories**
+**10 merged PRs · 6 upstream repositories**
 
 | Repository | Merged PRs | Recent PRs |
 | :--- | :---: | :--- |
+| **[livekit/agents](https://github.com/livekit/agents)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Alivekit%2Fagents) | [#8571](https://github.com/livekit/agents/pull/8571) |
 | **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | [4](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm) | [#68055](https://github.com/vllm-project/vllm/pull/68055) · [#67904](https://github.com/vllm-project/vllm/pull/67904) · [#67813](https://github.com/vllm-project/vllm/pull/67813) |
 | **[ag2ai/ag2](https://github.com/ag2ai/ag2)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Aag2ai%2Fag2) | [#3684](https://github.com/ag2ai/ag2/pull/3684) |
 | **[huggingface/transformers](https://github.com/huggingface/transformers)** | [2](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Ahuggingface%2Ftransformers) | [#50758](https://github.com/huggingface/transformers/pull/50758) · [#50763](https://github.com/huggingface/transformers/pull/50763) |
