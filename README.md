@@ -13,10 +13,11 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**10 merged PRs · 6 upstream repositories**
+**11 merged PRs · 7 upstream repositories**
 
 | Repository | Merged PRs | Recent PRs |
 | :--- | :---: | :--- |
+| **[vllm-project/semantic-router](https://github.com/vllm-project/semantic-router)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fsemantic-router) | [#7204](https://github.com/vllm-project/semantic-router/pull/7204) |
 | **[livekit/agents](https://github.com/livekit/agents)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Alivekit%2Fagents) | [#8571](https://github.com/livekit/agents/pull/8571) |
 | **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | [4](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm) | [#68055](https://github.com/vllm-project/vllm/pull/68055) · [#67904](https://github.com/vllm-project/vllm/pull/67904) · [#67813](https://github.com/vllm-project/vllm/pull/67813) |
 | **[ag2ai/ag2](https://github.com/ag2ai/ag2)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Aag2ai%2Fag2) | [#3684](https://github.com/ag2ai/ag2/pull/3684) |
