@@ -13,17 +13,17 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
 ## Merged open-source contributions
 
 <!-- MERGED-PRS:START -->
-**12 merged PRs · 7 upstream repositories**
+**14 merged PRs · 7 upstream repositories**
 
 | Repository | Merged PRs | Recent PRs |
 | :--- | :---: | :--- |
+| **[sgl-project/sglang](https://github.com/sgl-project/sglang)** | [3](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Asgl-project%2Fsglang) | [#50615](https://github.com/sgl-project/sglang/pull/50615) · [#50609](https://github.com/sgl-project/sglang/pull/50609) · [#44861](https://github.com/sgl-project/sglang/pull/44861) |
 | **[vllm-project/vllm](https://github.com/vllm-project/vllm)** | [5](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm) | [#68223](https://github.com/vllm-project/vllm/pull/68223) · [#68055](https://github.com/vllm-project/vllm/pull/68055) · [#67904](https://github.com/vllm-project/vllm/pull/67904) |
 | **[vllm-project/semantic-router](https://github.com/vllm-project/semantic-router)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fsemantic-router) | [#7204](https://github.com/vllm-project/semantic-router/pull/7204) |
 | **[livekit/agents](https://github.com/livekit/agents)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Alivekit%2Fagents) | [#8571](https://github.com/livekit/agents/pull/8571) |
 | **[ag2ai/ag2](https://github.com/ag2ai/ag2)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Aag2ai%2Fag2) | [#3684](https://github.com/ag2ai/ag2/pull/3684) |
 | **[huggingface/transformers](https://github.com/huggingface/transformers)** | [2](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Ahuggingface%2Ftransformers) | [#50758](https://github.com/huggingface/transformers/pull/50758) · [#50763](https://github.com/huggingface/transformers/pull/50763) |
 | **[deepset-ai/haystack-core-integrations](https://github.com/deepset-ai/haystack-core-integrations)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Adeepset-ai%2Fhaystack-core-integrations) | [#4268](https://github.com/deepset-ai/haystack-core-integrations/pull/4268) |
-| **[sgl-project/sglang](https://github.com/sgl-project/sglang)** | [1](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Asgl-project%2Fsglang) | [#44861](https://github.com/sgl-project/sglang/pull/44861) |
 
 <sub>Updated every 30 minutes.</sub>
 <!-- MERGED-PRS:END -->
