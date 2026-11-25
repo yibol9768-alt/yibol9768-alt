@@ -32,7 +32,7 @@ B.Sc. student in Information and Computing Science at **Beijing University of Po
     <tr>
       <td><strong><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></strong></td>
       <td align="center"><a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayibol9768-alt+repo%3Avllm-project%2Fvllm">5</a></td>
-      <td><a href="https://github.com/vllm-project/vllm/pull/68223">#68223</a> · <a href="https://github.com/vllm-project/vllm/pull/68055">#68055</a> · <a href="https://github.com/vllm-project/vllm/pull/67904">#67904</a></td>
+      <td><a href="https://github.com/vllm-project/vllm/pull/68223">#68223</a> · <a href="https://github.com/vllm-project/vllm/pull/68055">#68055</a> · <a href="https://github.com/vllm-project/vllm/pull/67904">#67904</a> · <a href="https://github.com/vllm-project/vllm/pull/67813">#67813</a> · <a href="https://github.com/vllm-project/vllm/pull/67469">#67469</a></td>
     </tr>
     <tr>
       <td><strong><a href="https://github.com/vllm-project/semantic-router">vllm-project/semantic-router</a></strong></td>

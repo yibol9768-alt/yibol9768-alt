@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 USERNAME = "yibol9768-alt"
+MAX_RECENT_PRS = 8
 # Team coursework belongs with personal projects, not upstream contributions.
 EXCLUDED_REPOS = ["CollaborativeProjectsX/FusionNN_Yibo"]
 START = "<!-- MERGED-PRS:START -->"
@@ -91,7 +92,7 @@ def render(prs):
         })
         links = " · ".join(
             f'<a href="{html.escape(pr["url"])}">#{pr["number"]}</a>'
-            for pr in contributions[:3]
+            for pr in contributions[:MAX_RECENT_PRS]
         )
         lines.extend([
             "    <tr>",
