@@ -66,29 +66,45 @@ def fetch_prs(token):
         cursor = search["pageInfo"]["endCursor"]
 
 
-def cell(value):
-    # Remote repository names are display data, never raw Markdown or HTML.
-    value = html.escape(" ".join(value.split()), quote=False)
-    return "".join("\\" + char if char in "\\`*_{}[]()|" else char for char in value)
-
-
 def render(prs):
     repositories = {}
     for pr in sorted(prs, key=lambda pr: (pr["mergedAt"], pr["url"]), reverse=True):
         repo = pr["repository"]["nameWithOwner"]
         repositories.setdefault(repo, []).append(pr)
 
-    lines = [f"**{len(prs)} merged PRs · {len(repositories)} upstream repositories**",
-             "", "| Repository | Merged PRs | Recent PRs |",
-             "| :--- | :---: | :--- |"]
+    lines = [
+        f"**{len(prs)} merged PRs · {len(repositories)} upstream repositories**",
+        "",
+        '<table width="100%">',
+        "  <thead>",
+        "    <tr>",
+        '      <th width="320" align="left" scope="col">Repository</th>',
+        '      <th width="110" align="center" scope="col">Merged PRs</th>',
+        '      <th width="430" align="left" scope="col">Recent PRs</th>',
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
+    ]
     for repo, contributions in list(repositories.items())[:10]:
         search_url = "https://github.com/pulls?" + urlencode({
             "q": f"is:pr is:merged author:{USERNAME} repo:{repo}",
         })
-        links = " · ".join(f"[#{pr['number']}]({pr['url']})" for pr in contributions[:3])
-        lines.append(f"| **[{cell(repo)}](https://github.com/{repo})** | [{len(contributions)}]({search_url}) | {links} |")
+        links = " · ".join(
+            f'<a href="{html.escape(pr["url"])}">#{pr["number"]}</a>'
+            for pr in contributions[:3]
+        )
+        lines.extend([
+            "    <tr>",
+            f'      <td><strong><a href="https://github.com/{html.escape(repo)}">'
+            f'{html.escape(repo)}</a></strong></td>',
+            f'      <td align="center"><a href="{html.escape(search_url)}">'
+            f'{len(contributions)}</a></td>',
+            f"      <td>{links}</td>",
+            "    </tr>",
+        ])
     if not prs:
-        lines.append("| — | 0 | No merged upstream PRs yet. |")
+        lines.append('    <tr><td>—</td><td align="center">0</td><td>No merged upstream PRs yet.</td></tr>')
+    lines.extend(["  </tbody>", "</table>"])
     note = "Updated every 30 minutes."
     if len(repositories) > 10:
         note += " Showing the 10 most recently contributed repositories."
